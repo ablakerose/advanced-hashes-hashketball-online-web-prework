@@ -124,3 +124,25 @@ def num_points_scored(player_name, game)
     end
   end
 end
+
+def shoe_size(player_name, game)
+  game_hash.each do |home, home_hash|
+    home_hash.each do |players, players_hash|
+      if players_hash == player_name
+        return players_hash
+      end
+    end
+  end
+end
+
+def team_colors(team_name)
+end 
+
+def team_names()
+end 
+
+def player_numbers
+end 
+
+def player_stats
+end 
