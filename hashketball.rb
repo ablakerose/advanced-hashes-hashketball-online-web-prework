@@ -1,11 +1,8 @@
-require "pry"
-
 game_hash = {
   :home => {
     :team_name => "Brooklyn Nets",
     :colors => ["Black", "White"],
     :players => {
-      binding.pry 
         "Alan Anderson" => {
           :number => 0
           :shoe => 16
