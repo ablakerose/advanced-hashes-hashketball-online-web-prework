@@ -118,4 +118,4 @@ game_hash = {
       }
     }
 
-def game_hash   
+def game_hash
