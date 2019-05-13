@@ -71,6 +71,7 @@ game_hash = {
           :steals => 2
           :blocks => 7
           :slam_dunks => 2
+          }
         "Bismack Biyombo" => {
           :number => 0
           :shoe => 16
@@ -80,6 +81,7 @@ game_hash = {
           :steals => 7
           :blocks => 1
           :slam_dunks => 10
+          }
         "DeSagna Diop" => {
           :number => 2
           :shoe => 14
@@ -89,6 +91,7 @@ game_hash = {
           :steals => 4
           :blocks => 5
           :slam_dunks => 5
+          }
         "Ben Gordon" => {
           :number => 8
           :shoe => 15
@@ -98,6 +101,7 @@ game_hash = {
           :steals => 1
           :blocks => 1
           :slam_dunks => 0
+          }
         "Brendan Haywood" => {
           :number => 33
           :shoe => 15
@@ -108,6 +112,7 @@ game_hash = {
           :blocks => 5
           :slam_dunks => 12
           }
+      }
       }
     }
 
