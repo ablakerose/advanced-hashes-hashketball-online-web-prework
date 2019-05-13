@@ -1,6 +1,4 @@
-
-
-  def game_hash
+def game_hash
     game_hash =
   {
     :home => {
