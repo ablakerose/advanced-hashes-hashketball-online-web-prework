@@ -122,5 +122,5 @@ def num_points_scored(player_name, game)
         return player_hash[:points]
       
     end
-  end 
+  end
 end
