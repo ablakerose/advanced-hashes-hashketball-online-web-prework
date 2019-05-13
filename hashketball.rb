@@ -1,4 +1,4 @@
-def game_hash(game_hash_argument)
+def game_hash
 game_hash = {
   :home => {
     :team_name => "Brooklyn Nets",
@@ -12,7 +12,7 @@ game_hash = {
           :assists => 12,
           :steals => 3,
           :blocks => 1,
-          :slam_dunks => 1,
+          :slam_dunks => 1
         },
         "Reggie Evans" => {
           :number => 30,
