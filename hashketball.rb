@@ -1,6 +1,6 @@
 
 
-  def game_hash 
+  def game_hash
     game_hash =
   {
     :home => {
@@ -116,13 +116,13 @@
       }
     }
 
-    
+
   }
 
-  end 
-    
-    
-    
+  end
+
+
+
 
 
 
@@ -223,30 +223,30 @@
         end
     end
     return array2
-  end 
+  end
 
   ([1,2,5].reduce(:+).to_f / [1,2,3].length.to_f)
 
 
   #---
-  # always have a leader and a writer; leader directs; writer types out the code 
+  # always have a leader and a writer; leader directs; writer types out the code
 
   # def num_points_scored2(player_name)
   #   game_hash.each do |location, team_data|
   #   if team_data[:players].has_key?(player_name)
   #     return team_data[:players][player_name][:points]
-  #     end 
+  #     end
   #   end
-  # end 
+  # end
 
   def num_points_scored2(player_name)
     game_hash.each do |location, team_data|
     if team_data[:players].include?(player_name)
       return team_data[:players][player_name][:points]
-      end 
+      end
     end
     nil
-  end 
+  end
 
 
   num_points_scored2("Ben Gordon")
@@ -255,43 +255,40 @@
     game_hash.each do |location, team_data|
       if team_data[:players].include?(player_name)
         return team_data[:players][player_name]
-      end 
+      end
     end
-  end 
+  end
 
   find_player_hash("Ben Gordon")
 
   def num_points_scored3(player_name)
     find_player_hash(player_name)[:points]
-  end 
+  end
 
   def shoe_size_2(player_name)
     find_player_hash(player_name)[:shoe]
-  end 
+  end
 
   def player_stats(player_name)
     game_hash.keys.each do |team|
       if game_hash[team][:players].keys.include?(player_name)
         return game_hash[team][:players][player_name]
-      end 
-    end 
-  end 
+      end
+    end
+  end
 
   def find_player_hash_2(player_name)
     home_players = game_hash[:home][:players]
     away_players = game_hash[:away][:players]
     all_players = home_players.merge(away_players)
     all_players[player_name]
-  end 
+  end
 
   find_player_hash_2("Jeff Adrien")
 
 
   def winning_team
-    away_total = 0 
-    home_total = 0 
-    
+    away_total = 0
+    home_total = 0
+
   game_hash[:away][:players]
-
-
-    
