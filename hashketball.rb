@@ -116,7 +116,7 @@ game_hash = {
 end
 
 def num_points_scored(player_name, game)
-  game_hash.each do |home, home_hash]
+  game_hash.each do |home, home_hash|
     home_hash.each do |players, players_hash|
       if players_hash == player_name
         return players_hash
